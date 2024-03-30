@@ -1,5 +1,28 @@
 import React, { useState } from "react";
 import { Col, Container, Row, Button } from "react-bootstrap";
+import styled, { keyframes, css } from "styled-components";
+
+// Definisco l'animazione per far sparire il container verso sinistra
+const slideOut = keyframes`
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100wh);
+    }
+`;
+
+// Styled component per il container
+const StyledContainer = styled.div`
+    width: 40rem;
+    height: 30rem;
+    background-color: #ccc;
+    animation: ${props => props.visible ? "" : css`${slideOut} 0.5s ease-out forwards`};
+    transform: ${props => props.visible ? "translateX(0)" : "translateX(-200%)"};
+    transition: transform 0.5s ease-out;
+    overflow: hidden;
+    .
+`;
 
 const Blocco = () => {
     const [isVisible, setIsVisible] = useState(true);
@@ -11,18 +34,17 @@ const Blocco = () => {
     return (
         <>
             <Container className="text-center mt-5">
-                <Row>
-                    {isVisible && (
-                        <div className="bg-secondary " style={{ width: "40rem", height: "30rem" }}>
-                            <Col className="text-center pt-5 mt-5">
-                                Benvenuto nel mio Portfolio! Mi presento, mi chiamo Maurizio Crispino, ho 19 anni e mi piace programmare!
-                            </Col>               
-                                <Button onClick={toggleVisibility}>
-                                    {isVisible ? "Nascondi" : "Mostra"}
-                                </Button>
-                    
+                <Row className="justify-content-center">
+                    <Col xs={12} md={6} className="text-center pt-5 mt-5">
+                        <StyledContainer visible={isVisible}>
+                            Benvenuto nel mio Portfolio! Mi presento, mi chiamo Maurizio Crispino, ho 19 anni e mi piace programmare!
+                            <div>
+                        <Button onClick={toggleVisibility} className="mt-3">
+                            {isVisible ? "Nascondi" : "Mostra"}
+                        </Button>
                         </div>
-                    )}
+                        </StyledContainer>
+                    </Col>
                 </Row>
             </Container>
         </>
