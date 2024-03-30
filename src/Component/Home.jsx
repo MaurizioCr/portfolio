@@ -16,16 +16,13 @@ const Blocco = () => {
                         <div className="bg-secondary " style={{ width: "40rem", height: "30rem" }}>
                             <Col className="text-center pt-5 mt-5">
                                 Benvenuto nel mio Portfolio! Mi presento, mi chiamo Maurizio Crispino, ho 19 anni e mi piace programmare!
-                            </Col>
+                            </Col>               
+                                <Button onClick={toggleVisibility}>
+                                    {isVisible ? "Nascondi" : "Mostra"}
+                                </Button>
+                    
                         </div>
                     )}
-                </Row>
-                <Row className="mt-3">
-                    <Col className="text-center">
-                        <Button onClick={toggleVisibility}>
-                            {isVisible ? "Nascondi" : "Mostra"}
-                        </Button>
-                    </Col>
                 </Row>
             </Container>
         </>
