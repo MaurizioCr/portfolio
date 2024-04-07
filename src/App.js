@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Home from "./Component/Home"
+import Blocco from "./Component/Blocco"
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Component/Home';
 
 function App() {
   return (
