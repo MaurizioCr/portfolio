@@ -1,54 +1,18 @@
-import React, { useState } from "react";
-import { Col, Container, Row, Button } from "react-bootstrap";
-import styled, { keyframes, css } from "styled-components";
+import { Button } from "react-bootstrap";
+import Blocco from "./Blocco";
 
-// Definisco l'animazione per far sparire il container verso sinistra
-const slideOut = keyframes`
-    from {
-        transform: translateX(0);
+const Home = () => {
+    return(
+    <>
+    <Blocco/>
+        Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa.
+        Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo 
+        tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo 
+        a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare,
+        negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più 
+        recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.
+    </>
+)
     }
-    to {
-        transform: translateX(-100wh);
-    }
-`;
 
-// Styled component per il container
-const StyledContainer = styled.div`
-    width: 40rem;
-    height: 30rem;
-    background-color: #ccc;
-    animation: ${props => props.visible ? "" : css`${slideOut} 0.5s ease-out forwards`};
-    transform: ${props => props.visible ? "translateX(0)" : "translateX(-200%)"};
-    transition: transform 0.5s ease-out;
-    overflow: hidden;
-    .
-`;
-
-const Blocco = () => {
-    const [isVisible, setIsVisible] = useState(true);
-
-    const toggleVisibility = () => {
-        setIsVisible(!isVisible);
-    };
-
-    return (
-        <>
-            <Container className="text-center mt-5">
-                <Row className="justify-content-center">
-                    <Col xs={12} md={6} className="text-center pt-5 mt-5">
-                        <StyledContainer visible={isVisible}>
-                            Benvenuto nel mio Portfolio! Mi presento, mi chiamo Maurizio Crispino, ho 19 anni e mi piace programmare!
-                            <div>
-                        <Button onClick={toggleVisibility} className="mt-3">
-                            {isVisible ? "Nascondi" : "Mostra"}
-                        </Button>
-                        </div>
-                        </StyledContainer>
-                    </Col>
-                </Row>
-            </Container>
-        </>
-    );
-};
-
-export default Blocco;
+export default Home;
