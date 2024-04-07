@@ -9,6 +9,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+      <Route element={<Blocco/>}path="/blocco"/>
         <Route element={<Home />} path="/" />
       </Routes>
     </BrowserRouter>
