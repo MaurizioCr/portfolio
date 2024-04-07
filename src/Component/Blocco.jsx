@@ -23,6 +23,7 @@ const StyledContainer = styled.div`
     pointer-events: ${props => props.visible ? 'auto' : 'none'};
     transition: opacity 0.5s ease-out;
     overflow: hidden;
+    ${props => !props.visible && css`display: none;`} /* Aggiungi display: none quando non è visibile */
 `;
 
 const Blocco = () => {
