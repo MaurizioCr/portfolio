@@ -43,12 +43,12 @@ const Home = () => {
             {/* Testo principale */}
             <Container className="mt-5">
                 <Row>
-                    <Col className="col-6">
+                    <Col className="col-12 col-md-6">
                     
                         <img src={foto} width={100 + "%"} height={100 + "%"}/>
                         
                     </Col>
-                    <Col className="col-6">
+                    <Col className="col-12 col-md-6">
                         Sono una ragazzo di 19 anni a cui piace programmare siti web, sono appassionato al mondo della tecnologia.
                         Inoltre mi piace anche viaggiare e provare cose nuove.
                         <br/>
