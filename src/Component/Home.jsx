@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import Blocco from "./Blocco";
 import styled, { keyframes, css } from "styled-components";
+import foto from "../Assets/IMG_8265.jpg";
 
 // Styled component per il container sovrapposto
 const OverlayContainer = styled.div`
@@ -40,14 +41,23 @@ const Home = () => {
     return(
         <>
             {/* Testo principale */}
-            <div>
-                Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa.
-                Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo 
-                tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo 
-                a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare,
-                negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più 
-                recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.
-            </div>
+            <Container className="mt-5">
+                <Row>
+                    <Col className="col-6">
+                    
+                        <img src={foto} width={100 + "%"} height={100 + "%"}/>
+                        
+                    </Col>
+                    <Col className="col-6">
+                        Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa.
+                        Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo 
+                        tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo 
+                        a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare,
+                        negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più 
+                        recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.
+                    </Col>
+                </Row>
+            </Container>
 
             {/* Container sovrapposto */}
             {showOverlay && (
