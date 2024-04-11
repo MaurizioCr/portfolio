@@ -49,12 +49,21 @@ const Home = () => {
                         
                     </Col>
                     <Col className="col-6">
-                        Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa.
-                        Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo 
-                        tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione. È sopravvissuto non solo 
-                        a più di cinque secoli, ma anche al passaggio alla videoimpaginazione, pervenendoci sostanzialmente inalterato. Fu reso popolare,
-                        negli anni ’60, con la diffusione dei fogli di caratteri trasferibili “Letraset”, che contenevano passaggi del Lorem Ipsum, e più 
-                        recentemente da software di impaginazione come Aldus PageMaker, che includeva versioni del Lorem Ipsum.
+                        Sono una ragazzo di 19 anni a cui piace programmare siti web, sono appassionato al mondo della tecnologia.
+                        Inoltre mi piace anche viaggiare e provare cose nuove.
+                        <br/>
+                        Mi sono diplomato presso l'istituto tecnico informatico F. Giordani
+                        2018-2023
+                        Dal punto di vista pratico ho imparato ad utilizzare HTML, C, C++, Java, Cisco.
+                        Per quanto riguardo il lato teorico, abbiamo visto cose come risposte REST, crittografia, database
+                        <br/><br/>
+
+                        Ho imparato a programmare web app, lato front end con react e bootstrap e lato beckend con Java e spring framework.
+                        L’ultima settimana del mese venivano organizzati progetti di gruppo da 4/5 persone e ogni venerdì un progetto individuale 
+                        con valutazione.<br/><br/>
+                        Riesco a mantenere la calma anche nei momenti più difficili e cerco di risolvere i problemi con più lucidità possibile.
+                        Posso essere utile al tuo progetto grazie alle mie skills acquisite nel tempo con l'esperiena personale e lo studio fatto.
+                        Per essere uno sviluppatore web prima bisogna essere dei bravi utenti.
                     </Col>
                 </Row>
             </Container>
