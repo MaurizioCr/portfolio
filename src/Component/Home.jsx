@@ -3,6 +3,8 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import Blocco from "./Blocco";
 import styled, { keyframes, css } from "styled-components";
 import foto from "../Assets/IMG_8265.jpg";
+import js from "../Assets/js.png";
+import react from "../Assets/react.png";
 
 // Styled component per il container sovrapposto
 const OverlayContainer = styled.div`
@@ -64,6 +66,15 @@ const Home = () => {
                         Riesco a mantenere la calma anche nei momenti più difficili e cerco di risolvere i problemi con più lucidità possibile.
                         Posso essere utile al tuo progetto grazie alle mie skills acquisite nel tempo con l'esperiena personale e lo studio fatto.
                         Per essere uno sviluppatore web prima bisogna essere dei bravi utenti.
+                    </Col>
+                </Row>
+                <Row className="pt-5">
+                    <Col className="col-2">
+                        <img src={js} width={100 + "%"} height={100 + "%"}/>
+                    </Col>
+                        
+                    <Col className="col-2">
+                        <img src={react} width={100 + "%"} height={100 + "%"}/>
                     </Col>
                 </Row>
             </Container>
