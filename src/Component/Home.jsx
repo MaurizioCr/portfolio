@@ -114,6 +114,14 @@ const Home = () => {
                     </Col>
                     
                 </Row>
+
+                <Row className="pt-5 mt-5">
+                    <h1 className=" text-center">Progetti Personali</h1>
+                    <Col className="">
+                        <h2>The Last World</h2>
+                        <img src="https://media.licdn.com/dms/image/D4D2DAQH6U0ndTEYieA/profile-treasury-image-shrink_8192_8192/0/1709743941347?e=1714046400&v=beta&t=_EZRpSVxCXHzvoJ2lEgbCBTqFsjThGYIO4hv1On6Rno" width={100 + "%"} height={100+"%"}/>
+                    </Col>
+                </Row>
             </Container>
 
             {/* Container sovrapposto */}
