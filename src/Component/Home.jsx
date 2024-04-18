@@ -98,6 +98,20 @@ const Home = () => {
                     <Col className="col-3 mt-5">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" alt="PostgreSQL" width={30 + "%"} height={100 + "%"}/>
                     </Col>
+
+
+                    <Col className="col-3 mt-5">
+                        <img src="https://www.myti.it/wp-content/uploads/2019/02/intellij-idea_logo_300x300.png" alt="Intellij" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                    <Col className="col-3 mt-5">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                    <Col className="col-3 mt-5">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png" alt="Apple Mac" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                    <Col className="col-3 mt-5">
+                        <img src="https://www.uc3m.es/sdic/media/sdic/img/mediana/original/im_microsoft-ssoo-cliente---icono/im_microsoft-ssoo-cliente---icono.png" alt="Windows" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
                     
                 </Row>
             </Container>
