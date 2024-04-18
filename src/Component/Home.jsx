@@ -68,13 +68,19 @@ const Home = () => {
                         Per essere uno sviluppatore web prima bisogna essere dei bravi utenti.
                     </Col>
                 </Row>
-                <Row className="pt-5">
-                    <Col className="col-2">
-                        <img src={js} width={100 + "%"} height={100 + "%"}/>
+                <Row className="pt-5 text-center">
+                    <Col className="col-3 ">
+                        <img src={js} width={30 + "%"} alt="javascript" height={100 + "%"}/>
                     </Col>
                         
-                    <Col className="col-2">
-                        <img src={react} width={100 + "%"} height={100 + "%"}/>
+                    <Col className="col-3 ">
+                        <img src={react} width={30 + "%"} alt="react" height={100 + "%"}/>
+                    </Col>
+                    <Col className="col-3">
+                        <img src="https://camo.githubusercontent.com/b872b9ada0c2c3d373bbb0c356eb4af353127335fc3d2e611964433864ab4de1/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67" alt="bootstrap" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                    <Col className="col-3 ">
+                        <img src="https://cdn1.iconfinder.com/data/icons/programing-development-7/24/html_html5_web_programing_developer-512.png" width={30 + "%"} height={100 + "%"}/>
                     </Col>
                 </Row>
             </Container>
