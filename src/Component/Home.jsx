@@ -69,10 +69,11 @@ const Home = () => {
                     </Col>
                 </Row>
                 <Row className="pt-5 text-center">
+
+
                     <Col className="col-3 ">
                         <img src={js} width={30 + "%"} alt="javascript" height={100 + "%"}/>
-                    </Col>
-                        
+                    </Col>     
                     <Col className="col-3 ">
                         <img src={react} width={30 + "%"} alt="react" height={100 + "%"}/>
                     </Col>
@@ -82,6 +83,22 @@ const Home = () => {
                     <Col className="col-3 ">
                         <img src="https://cdn1.iconfinder.com/data/icons/programing-development-7/24/html_html5_web_programing_developer-512.png" width={30 + "%"} height={100 + "%"}/>
                     </Col>
+
+
+
+                    <Col className="col-3 mt-5">
+                        <img src="https://static-00.iconduck.com/assets.00/visual-studio-code-icon-2048x2037-yx7phbgk.png" alt="VisualStudio Code" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                    <Col className="col-3 mt-5">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png" alt="github" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                    <Col className="col-3 mt-5">
+                        <img src="https://yt3.googleusercontent.com/X-rhKMndFm9hT9wIaJns1StBfGbFdLTkAROwm4UZ3n9ucrBky5CFIeeZhSszFXBgQjItzCD0SA=s900-c-k-c0x00ffffff-no-rj" alt="postman" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                    <Col className="col-3 mt-5">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" alt="PostgreSQL" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                    
                 </Row>
             </Container>
 
