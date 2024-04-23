@@ -6,6 +6,7 @@ import foto from "../Assets/IMG_8265.jpg";
 import js from "../Assets/js.png";
 import react from "../Assets/react.png";
 import linkedin from "../Assets/Linkedin.jpg"
+import spotify from "../Assets/Linkedin.jpg"
 
 // Styled component per il container sovrapposto
 const OverlayContainer = styled.div`
@@ -129,6 +130,10 @@ const Home = () => {
                     <Col  className="col-6 border">
                         <h2>Linkedin Clone</h2>
                         <img src={linkedin} width={100 + "%"} />
+                    </Col>
+                    <Col  className="col-6 border">
+                        <h2>Linkedin Clone</h2>
+                        <img src={spotify} width={100 + "%"} />
                     </Col>
                 </Row>
             </Container>
