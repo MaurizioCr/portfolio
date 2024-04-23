@@ -72,7 +72,7 @@ const Home = () => {
                 </Row>
                 <Row className="pt-5 text-center">
 
-
+                <Col className="d-flex flex-wrap black rounded p-5">
                     <Col className="col-3 ">
                         <img src={js} width={30 + "%"} alt="javascript" height={100 + "%"}/>
                     </Col>     
@@ -114,24 +114,24 @@ const Home = () => {
                     <Col className="col-3 mt-5">
                         <img src="https://www.uc3m.es/sdic/media/sdic/img/mediana/original/im_microsoft-ssoo-cliente---icono/im_microsoft-ssoo-cliente---icono.png" alt="Windows" width={30 + "%"} height={100 + "%"}/>
                     </Col>
-                    
+                    </Col>
                 </Row>
 
-                <Row className="pt-5 mt-5 text-center mb-5">
+                <Row className="py-4 px-4 mt-5 text-center mb-5 black rounded">
                     <h1 className=" text-center">Progetti Personali</h1>
-                    <Col className="col-6 border">
+                    <Col className="col-6 border rounded">
                         <h2>The Last World</h2>
                         <img src="https://media.licdn.com/dms/image/D4D2DAQH6U0ndTEYieA/profile-treasury-image-shrink_8192_8192/0/1709743941347?e=1714046400&v=beta&t=_EZRpSVxCXHzvoJ2lEgbCBTqFsjThGYIO4hv1On6Rno" width={100 + "%"}/>
                     </Col>
-                    <Col  className="col-6 border">
+                    <Col  className="col-6 rounded border">
                         <h2>Netflix Clone</h2>
                         <img src="https://media.licdn.com/dms/image/D4D22AQG9E62netGe_Q/feedshare-shrink_2048_1536/0/1699915412879?e=1716422400&v=beta&t=d1xk1TIYXHrJ6XnZe7cNvYebvt5w1WASEO4eDtwlkXs" width={100 + "%"} />
                     </Col>
-                    <Col  className="col-6 border">
+                    <Col  className="col-6 border rounded">
                         <h2>Linkedin Clone</h2>
                         <img src={linkedin} width={100 + "%"} />
                     </Col>
-                    <Col  className="col-6 border">
+                    <Col  className="col-6 border rounded">
                         <h2>Linkedin Clone</h2>
                         <img src={spotify} width={100 + "%"} />
                     </Col>
