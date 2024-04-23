@@ -6,7 +6,7 @@ import foto from "../Assets/IMG_8265.jpg";
 import js from "../Assets/js.png";
 import react from "../Assets/react.png";
 import linkedin from "../Assets/Linkedin.jpg"
-import spotify from "../Assets/Linkedin.jpg"
+import spotify from "../Assets/Spotify.png"
 
 // Styled component per il container sovrapposto
 const OverlayContainer = styled.div`
