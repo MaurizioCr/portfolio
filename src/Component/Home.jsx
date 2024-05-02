@@ -40,10 +40,15 @@ const fadeIn = keyframes`
 `;
 
 // Applica l'animazione alla riga desiderata
-const AnimatedRow = styled(Row)`
+const AnimatedRow0 = styled(Row)`
+    animation: ${fadeIn} 0.5s ease-in-out;
+`;
+const AnimatedRow1 = styled(Row)`
     animation: ${fadeIn} 1s ease-in-out;
 `;
-
+const AnimatedRow2 = styled(Row)`
+    animation: ${fadeIn} 2s ease-in-out;
+`;
 const Home = () => {
     const [showOverlay, setShowOverlay] = useState(false);
 
@@ -61,7 +66,7 @@ const Home = () => {
         <>
             {/* Testo principale */}
             <Container className="mt-5">
-                <Row>
+                <AnimatedRow0>
                     <Col className="col-12 col-md-6">
                     
                         <img src={foto} width={100 + "%"} height={100 + "%"}/>
@@ -84,8 +89,8 @@ const Home = () => {
                         Posso essere utile al tuo progetto grazie alle mie skills acquisite nel tempo con l'esperiena personale e lo studio fatto.
                         Per essere uno sviluppatore web prima bisogna essere dei bravi utenti.
                     </Col>
-                </Row>
-                <Row className="pt-5 text-center">
+                </AnimatedRow0>
+                <AnimatedRow1 className="pt-5 text-center">
 
                 <Col className="d-flex flex-wrap black rounded p-5">
                     <Col className="col-3 ">
@@ -130,9 +135,9 @@ const Home = () => {
                         <img src="https://www.uc3m.es/sdic/media/sdic/img/mediana/original/im_microsoft-ssoo-cliente---icono/im_microsoft-ssoo-cliente---icono.png" alt="Windows" width={30 + "%"} height={100 + "%"}/>
                     </Col>
                     </Col>
-                </Row>
+                </AnimatedRow1>
 
-                <AnimatedRow className="py-4 px-4 mt-5 text-center mb-5 black rounded">
+                <AnimatedRow2 className="py-4 px-4 mt-5 text-center mb-5 black rounded">
                     <h1 className=" text-center">Progetti Personali</h1>
                     <Col className="col-6 border rounded">
                         <h2>The Last World</h2>
@@ -150,7 +155,7 @@ const Home = () => {
                         <h2>Linkedin Clone</h2>
                         <img src={spotify} width={100 + "%"} />
                     </Col>
-                </AnimatedRow>
+                </AnimatedRow2>
             </Container>
 
             {/* Container sovrapposto */}
