@@ -49,6 +49,10 @@ const AnimatedRow1 = styled(Row)`
 const AnimatedRow2 = styled(Row)`
     animation: ${fadeIn} 2s ease-in-out;
 `;
+const AnimatedRow3 = styled(Row)`
+    animation: ${fadeIn} 2s ease-in-out;
+`;
+
 const Home = () => {
     const [showOverlay, setShowOverlay] = useState(false);
 
@@ -156,6 +160,9 @@ const Home = () => {
                         <img src={spotify} width={100 + "%"} />
                     </Col>
                 </AnimatedRow2>
+                <AnimatedRow3 className="py-4 px-4 mt-5 text-center mb-5 black rounded">
+                <h1 className=" text-center">Contattami</h1>
+                </AnimatedRow3>
             </Container>
 
             {/* Container sovrapposto */}
