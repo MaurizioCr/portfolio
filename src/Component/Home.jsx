@@ -47,7 +47,7 @@ const AnimatedRow1 = styled(Row)`
     animation: ${fadeIn} 1s ease-in-out;
 `;
 const AnimatedRow2 = styled(Row)`
-    animation: ${fadeIn} 2s ease-in-out;
+    animation: ${fadeIn} 1.5s ease-in-out;
 `;
 const AnimatedRow3 = styled(Row)`
     animation: ${fadeIn} 2s ease-in-out;
@@ -160,8 +160,19 @@ const Home = () => {
                         <img src={spotify} width={100 + "%"} />
                     </Col>
                 </AnimatedRow2>
-                <AnimatedRow3 className="py-4 px-4 mt-5 text-center mb-5 black rounded">
+                <AnimatedRow3 className="py-4 px-4 mt-5 mb-5 black rounded">
                 <h1 className=" text-center">Contattami</h1>
+                <p>crispinomaurizio034@gmail.com</p>
+                <Col className="col-3 mt-5">
+                        <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/discord_macos_bigsur_icon_190238.png" alt="Windows" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                <Col className="col-3 mt-5">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="Windows" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                <Col className="col-3 mt-5">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png" alt="Windows" width={30 + "%"} height={100 + "%"}/>
+                    </Col>
+                
                 </AnimatedRow3>
             </Container>
 
