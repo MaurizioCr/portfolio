@@ -28,6 +28,21 @@ const OverlayContent = styled.div`
     padding: 20px;
     border-radius: 10px;
 `;
+const fadeIn = keyframes`
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+`;
+
+// Applica l'animazione alla riga desiderata
+const AnimatedRow = styled(Row)`
+    animation: ${fadeIn} 1s ease-in-out;
+`;
 
 const Home = () => {
     const [showOverlay, setShowOverlay] = useState(false);
@@ -117,7 +132,7 @@ const Home = () => {
                     </Col>
                 </Row>
 
-                <Row className="py-4 px-4 mt-5 text-center mb-5 black rounded">
+                <AnimatedRow className="py-4 px-4 mt-5 text-center mb-5 black rounded">
                     <h1 className=" text-center">Progetti Personali</h1>
                     <Col className="col-6 border rounded">
                         <h2>The Last World</h2>
@@ -135,7 +150,7 @@ const Home = () => {
                         <h2>Linkedin Clone</h2>
                         <img src={spotify} width={100 + "%"} />
                     </Col>
-                </Row>
+                </AnimatedRow>
             </Container>
 
             {/* Container sovrapposto */}
