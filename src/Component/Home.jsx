@@ -159,7 +159,7 @@ const Home = () => {
                         <img src={linkedin} width={100 + "%"} />
                     </Col>
                     <Col  className="col-6 border rounded">
-                        <h2>Linkedin Clone</h2>
+                        <h2>Spotify Clone</h2>
                         <img src={spotify} width={100 + "%"} />
                     </Col>
                 </AnimatedRow2>
