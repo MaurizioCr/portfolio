@@ -163,17 +163,21 @@ const Home = () => {
                 <AnimatedRow3 className="py-4 px-4 mt-5 mb-5 black rounded">
                 <h1 className=" text-center">Contattami</h1>
                 <Row className="justify-content-around">
-                <Col className="col-3 mt-5 text-center">
+                    <Col className="col-3 mt-5 text-center">
                         <a href=""><img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/discord_macos_bigsur_icon_190238.png" alt="Discord" width={30 + "%"} height={100 + "%"}/></a>
                     </Col>
-                <Col className="col-3 mt-5 text-center">
+                    <Col className="col-3 mt-5 text-center">
                         <a href="https://www.linkedin.com/in/mauriziocrispino-webdeveloper/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png" alt="Linkedin" width={30 + "%"} height={100 + "%"}/></a>
                     </Col>
-                <Col className="col-3 mt-5 text-center">
+                    <Col className="col-3 mt-5 text-center">
                         <a href="https://github.com/MaurizioCr"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png" alt="Github" width={30 + "%"} height={100 + "%"}/></a>
                     </Col>
-                    </Row>
-                    <p className="text-center mt-5">crispinomaurizio034@gmail.com</p>
+                </Row>
+                <p className="text-center mt-5">
+                    <a href="mailto:crispinomaurizio034@gmail.com" style={{ textDecoration: 'none', fontWeight: "bold" }}>
+                    crispinomaurizio034@gmail.com
+                    </a>
+                </p>
                 </AnimatedRow3>
             </Container>
 
