@@ -96,7 +96,9 @@ const Home = () => {
                 </AnimatedRow0>
                 <AnimatedRow1 className="pt-5 text-center">
 
-                <Col className="d-flex flex-wrap black rounded p-5">
+                <Col className="d-flex flex-wrap black justify-content-center rounded p-5">
+                <h1 className="pb-5">Competenze</h1>
+                <Row>
                     <Col className="col-3 ">
                         <img src={js} width={30 + "%"} alt="javascript" height={100 + "%"}/>
                     </Col>     
@@ -138,6 +140,7 @@ const Home = () => {
                     <Col className="col-3 mt-5">
                         <img src="https://www.uc3m.es/sdic/media/sdic/img/mediana/original/im_microsoft-ssoo-cliente---icono/im_microsoft-ssoo-cliente---icono.png" alt="Windows" width={30 + "%"} height={100 + "%"}/>
                     </Col>
+                    </Row>
                     </Col>
                 </AnimatedRow1>
 
@@ -145,7 +148,7 @@ const Home = () => {
                     <h1 className=" text-center">Progetti Personali</h1>
                     <Col className="col-6 border rounded">
                         <h2>The Last World</h2>
-                        <img src="https://media.licdn.com/dms/image/D4D2DAQH6U0ndTEYieA/profile-treasury-image-shrink_8192_8192/0/1709743941347?e=1714046400&v=beta&t=_EZRpSVxCXHzvoJ2lEgbCBTqFsjThGYIO4hv1On6Rno" width={100 + "%"}/>
+                        <img src="https://media.licdn.com/dms/image/D4D2DAQH6U0ndTEYieA/profile-treasury-image-shrink_8192_8192/0/1709743941347?e=1715608800&v=beta&t=RogsuWF1TF7EzbwucUdrBlk0haECcI6v78Xy4C3ddXE" width={100 + "%"}/>
                     </Col>
                     <Col  className="col-6 rounded border">
                         <h2>Netflix Clone</h2>
