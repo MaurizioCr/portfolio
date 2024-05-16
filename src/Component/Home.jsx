@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Nav, Navbar, NavbarBrand, Row } from "react-bootstrap";
 import Blocco from "./Blocco";
 import styled, { keyframes, css } from "styled-components";
 import foto from "../Assets/IMG_8265.jpg";
@@ -94,7 +94,7 @@ const Home = () => {
                         Per essere uno sviluppatore web prima bisogna essere dei bravi utenti.
                     </Col>
                 </AnimatedRow0>
-                <AnimatedRow1 className="pt-5 text-center">
+                <AnimatedRow1 id="Competenze" className="pt-5 text-center">
 
                 <Col className="d-flex flex-wrap black justify-content-center rounded p-5">
                 <h1 className="pb-5">Competenze</h1>
@@ -144,7 +144,7 @@ const Home = () => {
                     </Col>
                 </AnimatedRow1>
 
-                <AnimatedRow2 className="py-4 px-4 mt-5 text-center mb-5 black rounded">
+                <AnimatedRow2 id="Progetti" className="py-4 px-4 mt-5 text-center mb-5 black rounded">
                     <h1 className=" text-center">Progetti Personali</h1>
                     <Col className="col-6 border rounded">
                         <h2>The Last World</h2>
@@ -163,7 +163,7 @@ const Home = () => {
                         <img src={spotify} width={100 + "%"} />
                     </Col>
                 </AnimatedRow2>
-                <AnimatedRow3 className="py-4 px-4 mt-5 mb-5 black rounded">
+                <AnimatedRow3 id="Contatti" className="py-4 px-4 mt-5 mb-5 black rounded">
                 <h1 className=" text-center">Contattami</h1>
                 <Row className="justify-content-around">
                     <Col className=" mt-5 text-center">
