@@ -2,3 +2,8 @@
 .black{
   border: 1px solid black !important;
 }
+
+body{
+  background: rgb(4,157,199);
+  background: linear-gradient(0deg,rgba(4,59,199,1)  19%, rgb(5, 113, 214) 86%);
+}
