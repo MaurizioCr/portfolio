@@ -163,7 +163,7 @@ const Home = () => {
                         <img src={spotify} width={100 + "%"} />
                     </Col>
                 </AnimatedRow2>
-                <AnimatedRow3 id="Contatti" className="py-4 px-4 mt-5 mb-5 black rounded">
+                <AnimatedRow3 id="Contatti" className="py-4 px-4 mt-5 mb-5 black rounded bg-white">
                 <h1 className=" text-center">Contattami</h1>
                 <Row className="justify-content-around">
                     <Col className=" mt-5 text-center">
