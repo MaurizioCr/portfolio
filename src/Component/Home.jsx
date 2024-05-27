@@ -51,6 +51,9 @@ const AnimatedRow2 = styled(Row)`
     .aqua{
         background-color:#0095ff;
     }
+    .violet{
+        background-color: blueviolet;;
+    }
 `;
 const AnimatedRow3 = styled(Row)`
     animation: ${fadeIn} 2s ease-in-out;
@@ -153,7 +156,7 @@ const Home = () => {
                         <h2>The Last World</h2>
                         <img src="https://media.licdn.com/dms/image/D4D2DAQH6U0ndTEYieA/profile-treasury-image-shrink_8192_8192/0/1709743941347?e=1715608800&v=beta&t=RogsuWF1TF7EzbwucUdrBlk0haECcI6v78Xy4C3ddXE" width={100 + "%"}/>
                     </Col>
-                    <Col  className="col-6 rounded border">
+                    <Col  className="col-6 rounded border violet">
                         <h2>Netflix Clone</h2>
                         <img src="https://media.licdn.com/dms/image/D4D22AQG9E62netGe_Q/feedshare-shrink_2048_1536/0/1699915412879?e=1716422400&v=beta&t=d1xk1TIYXHrJ6XnZe7cNvYebvt5w1WASEO4eDtwlkXs" width={100 + "%"} />
                     </Col>
