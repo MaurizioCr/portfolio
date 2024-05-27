@@ -57,6 +57,9 @@ const AnimatedRow2 = styled(Row)`
     .blue{
         background-color: cadetblue
     }
+    .magenta{
+        background-color: darkmagenta;
+    }
 `;
 const AnimatedRow3 = styled(Row)`
     animation: ${fadeIn} 2s ease-in-out;
@@ -167,7 +170,7 @@ const Home = () => {
                         <h2>Linkedin Clone</h2>
                         <img src={linkedin} width={100 + "%"} />
                     </Col>
-                    <Col  className="col-6 border rounded">
+                    <Col  className="col-6 border rounded magenta">
                         <h2>Spotify Clone</h2>
                         <img src={spotify} width={100 + "%"} />
                     </Col>
