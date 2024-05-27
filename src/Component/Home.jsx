@@ -48,6 +48,9 @@ const AnimatedRow1 = styled(Row)`
 `;
 const AnimatedRow2 = styled(Row)`
     animation: ${fadeIn} 1.5s ease-in-out;
+    .aqua{
+        background-color:#0095ff;
+    }
 `;
 const AnimatedRow3 = styled(Row)`
     animation: ${fadeIn} 2s ease-in-out;
@@ -146,7 +149,7 @@ const Home = () => {
 
                 <AnimatedRow2 id="Progetti" className="py-4 px-4 mt-5 text-center mb-5 black rounded bg-warning">
                     <h1 className=" text-center">Progetti Personali</h1>
-                    <Col className="col-6 border rounded">
+                    <Col className="col-6 border rounded aqua">
                         <h2>The Last World</h2>
                         <img src="https://media.licdn.com/dms/image/D4D2DAQH6U0ndTEYieA/profile-treasury-image-shrink_8192_8192/0/1709743941347?e=1715608800&v=beta&t=RogsuWF1TF7EzbwucUdrBlk0haECcI6v78Xy4C3ddXE" width={100 + "%"}/>
                     </Col>
