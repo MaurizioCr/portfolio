@@ -85,7 +85,7 @@ const Home = () => {
                 <AnimatedRow0>
                     <Col className="col-12 col-md-6">
                     
-                        <img src={foto} width={100 + "%"} height={100 + "%"}/>
+                        <img src={foto} className="rounded" width={100 + "%"} height={100 + "%"}/>
                         
                     </Col>
                     <Col className="col-12 col-md-6">
