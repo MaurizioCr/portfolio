@@ -92,7 +92,7 @@ const Home = () => {
                         <img src={foto} className="rounded" width={100 + "%"} height={100 + "%"}/>
                         
                     </Col>
-                    <Col className="col-12 col-md-6 bg-white fit ">
+                    <Col className="col-12 col-md-6 bg-white fit py-5">
                         Sono una ragazzo di 19 anni a cui piace programmare siti web, sono appassionato al mondo della tecnologia.
                         Inoltre mi piace anche viaggiare e provare cose nuove.
                         <br/>
