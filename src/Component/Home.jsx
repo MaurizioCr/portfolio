@@ -42,6 +42,9 @@ const fadeIn = keyframes`
 // Applica l'animazione alla riga desiderata
 const AnimatedRow0 = styled(Row)`
     animation: ${fadeIn} 0.5s ease-in-out;
+    .fit{
+        height: max-content !important;
+    }
 `;
 const AnimatedRow1 = styled(Row)`
     animation: ${fadeIn} 1s ease-in-out;
@@ -60,6 +63,7 @@ const AnimatedRow2 = styled(Row)`
     .magenta{
         background-color: darkmagenta;
     }
+   
 `;
 const AnimatedRow3 = styled(Row)`
     animation: ${fadeIn} 2s ease-in-out;
@@ -83,12 +87,12 @@ const Home = () => {
             {/* Testo principale */}
             <Container className="mt-5">
                 <AnimatedRow0>
-                    <Col className="col-12 col-md-6">
+                    <Col className="col-12 col-md-6 ">
                     
                         <img src={foto} className="rounded" width={100 + "%"} height={100 + "%"}/>
                         
                     </Col>
-                    <Col className="col-12 col-md-6 bg-white">
+                    <Col className="col-12 col-md-6 bg-white fit ">
                         Sono una ragazzo di 19 anni a cui piace programmare siti web, sono appassionato al mondo della tecnologia.
                         Inoltre mi piace anche viaggiare e provare cose nuove.
                         <br/>
