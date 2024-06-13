@@ -160,7 +160,7 @@ const Home = () => {
                     </Col>
                 </AnimatedRow1>
 
-                <AnimatedRow2 id="Progetti" className="py-4 px-4 mt-5 text-center mb-5 black rounded bg-warning">
+                <AnimatedRow2 id="Progetti" className="py-4 px-4 mt-5 text-center mb-5 black border-black border-5 rounded bg-warning">
                     <h1 className=" text-center">Progetti Personali</h1>
                     <Col className="col-6 border rounded aqua">
                         <h2>The Last World</h2>
