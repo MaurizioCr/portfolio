@@ -137,7 +137,7 @@ const Home = () => {
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png" alt="github" width={30 + "%"} height={100 + "%"}/>
                     </Col>
                     <Col className="col-3 mt-5">
-                        <img src="https://yt3.googleusercontent.com/X-rhKMndFm9hT9wIaJns1StBfGbFdLTkAROwm4UZ3n9ucrBky5CFIeeZhSszFXBgQjItzCD0SA=s900-c-k-c0x00ffffff-no-rj" alt="postman" width={30 + "%"} height={100 + "%"}/>
+                        <img src="https://www.svgrepo.com/show/354202/postman-icon.svg" alt="postman" width={30 + "%"} height={100 + "%"}/>
                     </Col>
                     <Col className="col-3 mt-5">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" alt="PostgreSQL" width={30 + "%"} height={100 + "%"}/>
