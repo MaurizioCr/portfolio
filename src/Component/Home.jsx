@@ -112,7 +112,7 @@ const Home = () => {
                 </AnimatedRow0>
                 <AnimatedRow1 id="Competenze" className="pt-5 text-center">
 
-                <Col className="d-flex flex-wrap black justify-content-center rounded p-5  bg-danger">
+                <Col className="d-flex flex-wrap black justify-content-center rounded p-5 border-black border-5 bg-danger">
                 <h1 className="pb-5">Competenze</h1>
                 <Row>
                     <Col className="col-3 ">
